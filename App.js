@@ -69,7 +69,7 @@ export default function App() {
   })
   
   return (
-    <SafeAreaView style={styles.container}> {/* SafeAreaView -> Serve para ajustar a visualização no iphone, no android fica normal */}
+    <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor="#121d31" barStyle="light-content" />
 
       <View style={styles.content}>
